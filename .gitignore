@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+data/
+*.bam
+*.bai
+*.fastq.gz
+*.bigwig
+*.bw
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+EOF
